@@ -1,0 +1,253 @@
+@import "mixins"
+@import "variables"
+@import "dropdown"
+@import "bigslider"
+
+body 
+  height: 100%
+
+.vector
+  margin: 0 0 0 8px
+
+.first-header
+  padding-top: 10px
+  display: flex
+  justify-content: flex-end
+  width: 100%
+
+.cell-nuber
+  color: rgba(0, 0, 0, 0.75)
+  font-family: Commissioner
+  font-size: 14px
+  font-weight: 400
+  letter-spacing: 0.42px
+  text-decoration: none
+
+.eye-img
+  margin-right: 190px
+
+.search-block, .language-box
+  display: flex
+  justify-content: flex-end
+
+.search-input
+  justify-content: end
+  background-image: url("../img/ico/mob_ico/search.svg")
+  background-repeat: no-repeat
+  background-position: center right
+  border: none
+  margin-top: 15px
+  font-family: Commissioner
+  font-size: 14px
+  color: rgba(0, 0, 0, 0.5)
+
+.mts-logo
+  margin-left: 26px
+
+  // Navbar
+
+.navbar
+  display: flex
+  justify-content: space-between
+  align-items: center
+
+.navbar-items
+  align-items: end
+
+.nav-list
+  display: flex
+  width: 669px
+  justify-content: space-between
+  
+.nav-link
+  font-family: $commisioner
+  color: rgba(0, 0, 0, 0.75)
+  font-size: 14px
+  font-weight: 600
+  letter-spacing: 0.42px
+  text-transform: uppercase
+  text-decoration: none
+
+.nav-link:hover
+  color: #ab8b2f
+  transition: .3s
+
+
+.lang
+  display: inline
+  font-family: $sourcesans
+  font-weight: 300
+  color: rgba(0, 0, 0, 0.8)
+  margin-right: 13px
+
+.decore //text style for dropdown
+  font-family: $sourcesans
+  font-size: 16px
+  font-weight: 400
+  color: rgba(0, 0, 0, 0.8)
+
+  //Main Slider 
+
+.main-slider1
+  min-height: 40.625rem
+  background: url('../img/maindisplay/bg1.jpg') center (center / cover) no-repeat
+
+.main-slider2
+  min-height: 40.625rem
+  background: url('../img/maindisplay/bg2.jpg') center (center / cover) no-repeat
+
+.main-slider3
+  min-height: 40.625rem
+  background: url('../img/maindisplay/bg3.jpg') center (center / cover) no-repeat
+
+.main-slider4
+  min-height: 40.625rem
+  background: url('../img/maindisplay/bg4.jpg') center (center / cover) no-repeat
+
+.main-slider5
+  min-height: 40.625rem
+  background: url('../img/maindisplay/bg5.jpg') center (center / cover) no-repeat
+
+
+.debts
+  width: 31.25rem
+  padding-top: 10rem
+
+.debts1
+  width: 35.625rem
+  padding-top: 10rem
+
+.debts-title
+  color: rgba(0, 0, 0, 0.9)
+  font-family: $commisioner
+  font-size: 40px
+  font-weight: 400
+  letter-spacing: 0.4px
+  
+.short-info
+  color: rgba(0, 0, 0, 0.8)
+  font-family: $lato
+  font-size: 15px
+  font-weight: 400
+  margin: 20px 0 50px 0
+
+.short-info1
+  color: rgba(0, 0, 0, 0.8)
+  font-family: $lato
+  font-size: 15px
+  font-weight: 300
+  margin: 20px 0 50px 0
+  width: 29.375rem
+
+.more-info
+  display: flex
+  justify-content: center
+  align-items: center
+  border-radius: 5px
+  width: 200px
+  height: 45px
+  background-color: #dec377
+  text-decoration: none
+  text-transform: uppercase
+  font-family: $commisioner
+  font-weight: 700
+  letter-spacing: 1.04px
+  color: #ffffff
+
+
+.more-info:hover
+  background-color:#e2b846
+  transition: .3s
+
+
+.flex
+  display: flex
+  justify-content: space-between
+
+
+//Profit
+
+.profit
+  background-color: #f2f2f2
+
+.card
+  display: flex
+  flex-direction: column
+  align-items: center
+  background:#fff
+  border-radius: 3px
+  width: 270px
+  height: 285px
+  margin-top: -90px
+  margin-bottom: 100px
+
+.card-items
+  display: flex
+  justify-content: center
+  width: 120px
+  height: 120px
+  border: 3px solid rgba(0, 0, 0, 0.1)
+  border-radius: 50%
+  margin-top: 75px
+
+
+.card-text
+  width: 230px
+  font-family: $lato
+  font-size: 16px
+  text-align: center
+  color: rgba(0, 0, 0, 0.5)
+  font-weight: 700
+  letter-spacing: 0.32px
+  line-height: 25px
+  margin-top: 25px
+
+// BUISSNES
+.buissnes, .bg-f2
+  background-color: #f2f2f2
+
+.bg-fff
+  background-color: #fff
+
+.bg-img
+  background: url(../img/buissnes.jpg) center (center / cover) no-repeat
+
+.buissnes-title
+  margin: 50px 0 30px 70px
+  color: rgba(0, 0, 0, 0.9)
+  font-family: Commissioner
+  font-size: 28px
+  font-weight: 400
+  font-style: normal
+  letter-spacing: 0.84px
+  line-height: 40px
+  text-align: left
+
+.buissnes-text
+  color: rgba(0, 0, 0, 0.8)
+  font-family: $lato
+  font-size: 15px
+  font-weight: 300
+  line-height: 25px
+  margin-left: 70px
+
+  .buissnes-text
+  margin-bottom: 40px
+
+.buissnes-text:last-child
+  margin-bottom: 70px
+
+.pbot
+  padding-bottom: 100px
+
+//DIRECTIONS
+
+.dir-title
+  width: 523px
+  color: rgba(0, 0, 0, 0.9)
+  font-family: Commissioner
+  font-size: 28px
+  font-weight: 400
+  font-style: normal
+  letter-spacing: 0.84px
+  line-height: 40px
